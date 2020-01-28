@@ -1,1 +1,16 @@
-{"devDependencies":{"cordova-plugin-geolocation":"~2.4.3"},"cordova":{"plugins":{"cordova-plugin-geolocation":{}}}}
+{
+  "devDependencies": {
+    "cordova-plugin-geolocation": "~2.4.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-geolocation": {}
+    },
+    "platforms": [
+      "browser"
+    ]
+  },
+  "dependencies": {
+    "cordova-browser": "^6.0.0"
+  }
+}
